@@ -25,6 +25,7 @@ public class PrimeNumberChecker {
             return true;
         } else {
             for (int i = number -1 ; i >= 2; i--) {
+                
                 int divisionRest = number % i;
                 if (divisionRest == 0){
                     return false;
