@@ -26,7 +26,6 @@ public class PrimeNumberChecker {
         } else {
             for (int i = number -1 ; i >= 2; i--) {
                 int divisionRest = number % i;
-                System.out.println("Reszta z dzielenia " + number + " przez " + i + " jest rowna " + divisionRest);
                 if (divisionRest == 0){
                     return false;
                 }
